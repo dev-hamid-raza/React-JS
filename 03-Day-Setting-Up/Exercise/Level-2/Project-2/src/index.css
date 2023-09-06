@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat';
+}
+.app {
+    background-color: #61dbfb;
+    margin: 30px;
+    border-radius: 15px;
+    padding: 15px;
+}
+.title {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+.sub-title {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+.input-section {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+}
+.input-section input {
+    font-size: 16px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 0;
+}
+.button {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+.button button {
+    font-size: 24px;
+    padding: 5px 100px;
+    cursor: pointer;
+    background-color: #FF3FA4;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    transition: all 0.1s ease;
+}
+.button button:hover {
+    background-color: #db2385;
+}
