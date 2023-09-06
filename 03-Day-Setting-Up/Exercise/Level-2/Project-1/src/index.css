@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat';
+}
+.header {
+    width: 1005;
+    text-align: center;
+    padding: 15px;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+}
+.logo {
+    width: 200px;
+}
+.logo img {
+    width: 100%;
+}
