@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat';
+    background-color: #ededed;
+}
+.app {
+    padding: 15px;
+    margin: 30px;
+    background-color: #fff;
+}
+.header {
+    width: 100%;
+}
+.header .user-image
+{
+    width: 200px;
+}
+.header .user-image img {
+    width: 100%;
+    border-radius: 50%;
+}
+.header .title {
+    font-size: 16px;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.header .icon {
+    background-color: #47bfde;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-section
+{
+    width: 100%;
+    margin: 15px 0;
+}
+.skill-section ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.skill-section ul li {
+    background-color: #47bfde;
+    color: #fff;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
