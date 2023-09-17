@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat';
+    background-color: #ededed;
+}
+.app {
+    padding: 30px;
+    background-color: #61dbfb;
+    border-radius: 15px;
+    margin: 15px;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+}
+
+h1 ,p {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+input {
+    padding: 10px 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 0;
+}
+button {
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(237, 46, 46);
+    color: #fff;
+    padding: 5px 15px;
+    margin: 15px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    transition: all 0.1s ease;
+}
+button:hover {
+    background-color: rgb(199, 29, 29);
+
+}
