@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat';
+    background-color: #ededed;
+}
+.app {
+    padding: 30px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.image-box {
+    width: 200px;
+}
+.image-box img {
+    width: 100%;
+}
+h1 {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
